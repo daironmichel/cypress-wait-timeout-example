@@ -8,7 +8,7 @@ const renderQuery = ({ error, props }) => {
   } else if (props) {
     return (
       <div>
-        <h3>First Post</h3>
+        <h3>Second Post</h3>
         <h5>{props.node.title}</h5>
         <div>{props.node.content}</div>
       </div>

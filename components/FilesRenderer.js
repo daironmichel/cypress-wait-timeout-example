@@ -6,7 +6,7 @@ const renderQuery = ({ error, props }) => {
   if (error) {
     return <div>{error.message}</div>;
   } else if (props) {
-    return <div>{props.viewer.allFiles.count} Files</div>;
+    return <h4>{props.viewer.allFiles.count} Files</h4>;
   }
   return <div>Loading</div>;
 };
